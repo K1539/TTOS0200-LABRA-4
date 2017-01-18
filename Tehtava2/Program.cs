@@ -34,9 +34,13 @@ namespace JAMK.IT
     {
         static void Main(string[] args)
         {
-            Vahvistin vahvistin = new Vahvistin();
-            vahvistin.Volume = 140;
-            Console.WriteLine(vahvistin.Message + vahvistin.Volume);
+            while (true)
+            {
+                Vahvistin vahvistin = new Vahvistin();
+                Console.Write(" Give a new volume value (0-100) > ");
+                vahvistin.Volume = int.Parse(Console.ReadLine());
+                Console.WriteLine(vahvistin.Message + vahvistin.Volume);
+            }
         }
     }
 }
