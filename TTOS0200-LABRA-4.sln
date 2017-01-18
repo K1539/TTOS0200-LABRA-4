@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TTOS0200-LABRA-4", "TTOS0200-LABRA-4\TTOS0200-LABRA-4.csproj", "{4CE111BD-6C90-4E63-AEC2-7FE2E5114DCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE111BD-6C90-4E63-AEC2-7FE2E5114DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE111BD-6C90-4E63-AEC2-7FE2E5114DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE111BD-6C90-4E63-AEC2-7FE2E5114DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE111BD-6C90-4E63-AEC2-7FE2E5114DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
