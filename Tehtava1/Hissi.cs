@@ -11,12 +11,13 @@ namespace JAMK.IT
         private readonly int MaxFloor = 5;
         private readonly int MinFloor = 1;
 
-        private int floor;
-        public int Floor
+        private int? floor;
+        public int? Floor
         {
             get
             {
                 return floor;
+                
             }
             set
             {
@@ -25,12 +26,10 @@ namespace JAMK.IT
 
                     if (value >= MaxFloor)
                     {
-                        Console.WriteLine("Too many floors");
                         floor = MaxFloor;
                     }
                     else
                     {
-                        Console.WriteLine("No floors under 1");
                         floor = MinFloor;
                     }
                 }
@@ -43,27 +42,29 @@ namespace JAMK.IT
         private string message;
         public string Message
         {
+
             get
-            {
-                return message;
-            }
-            set
             {
                 if (floor >= MaxFloor || floor <= MinFloor)
                 {
 
                     if (floor >= MaxFloor)
                     {
-                        message = "No floors more than 5";
+                        message = "Floor is too high";
+                        floor = null;
+                        return message;
                     }
                     else
                     {
-                        message = "No floors under 1";
+                        message = "Floor is too high";
+                        floor = null;
+                        return message;
                     }
                 }
                 else
                 {
-                    message = "";
+                    message = "The elevator is in floor number ";
+                    return message;
                 }
             }
         }

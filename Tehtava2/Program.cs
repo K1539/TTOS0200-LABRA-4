@@ -36,7 +36,7 @@ namespace JAMK.IT
         {
             Vahvistin vahvistin = new Vahvistin();
             vahvistin.Volume = 140;
-            Console.WriteLine("Voimakkuus on {0}", vahvistin.Volume);
+            Console.WriteLine(vahvistin.Message + vahvistin.Volume);
         }
     }
 }

@@ -13,7 +13,7 @@ namespace JAMK.IT
         {
             Hissi hissi = new IT.Hissi();
             hissi.Floor = 6;
-            Console.WriteLine("The elevator is in floor number " + hissi.Floor);
+            Console.WriteLine(hissi.Message + hissi.Floor);
         }
     }
 }

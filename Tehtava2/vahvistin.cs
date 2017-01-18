@@ -24,11 +24,11 @@ namespace JAMK.IT
                 {
                     if (value > MaxVol)
                     {
-                        value = MaxVol;
+                        volume = MaxVol;
                     }
                     else
                     {
-                        value = MinVol;
+                        volume = MinVol;
                     }
                 }
                 else
@@ -40,7 +40,28 @@ namespace JAMK.IT
         private string message;
         public string Message
         {
-
+            get
+            {
+                return message;
+            }
+            set
+            {
+                if (volume < MinVol || volume > MaxVol)
+                {
+                    if (volume > MaxVol)
+                    {
+                        message = "-> Too much volume -  Amplifier volume is set to maximum : ";
+                    }
+                    else
+                    {
+                        message = "-> Too low volume - Amplifier volume is set to minimum : ";
+                    }
+                }
+                else
+                {
+                    message = "-> Amplifier volume is set to : ";
+                }
+            }
         }
     }
 }
