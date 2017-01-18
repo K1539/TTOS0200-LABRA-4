@@ -11,8 +11,8 @@ namespace JAMK.IT
         private readonly int MaxVol = 100;
         private readonly int MinVol = 0;
 
-        private int? volume;
-        public int? Volume
+        private int volume;
+        public int Volume
         {
             get
             {
