@@ -10,6 +10,7 @@ namespace TTOS0200_LABRA_4
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world");
         }
     }
 }
