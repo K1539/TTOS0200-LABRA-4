@@ -50,8 +50,16 @@ namespace JAMK.IT
                 {
                     if (value > MaxVol)
                     {
-                        
+                        volume = MaxVol;
                     }
+                    else
+                    {
+                        volume = MinVol;
+                    }
+                }
+                else
+                {
+                    volume = value;
                 }
             }
         }
