@@ -9,6 +9,6 @@ namespace JAMK.IT
     public class Boss : Person
     {
         public string Car;
-        public int bonus;
+        public int Bonus;
     }
 }

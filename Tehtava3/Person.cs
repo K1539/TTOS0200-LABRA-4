@@ -13,4 +13,5 @@ namespace JAMK.IT
         public int Salary;
 
     }
+
 }
