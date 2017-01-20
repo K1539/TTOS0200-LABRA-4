@@ -29,6 +29,8 @@ namespace JAMK.IT
             Console.WriteLine(maito.ToString());
             Console.WriteLine("Porkkanat: ");
             Console.WriteLine(porkkanat.ToString());
+
+
         }
     }
 }
