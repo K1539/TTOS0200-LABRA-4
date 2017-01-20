@@ -16,6 +16,19 @@ namespace JAMK.IT
     {
         static void Main(string[] args)
         {
+            Kananmunat kananmunat = new Kananmunat(8, 3, "19.1.2017");
+            Liha liha = new IT.Liha(5, 10, "possu");
+            Maito maito = new IT.Maito(4, 4, "25.5.2017");
+            Porkkanat porkkanat = new Porkkanat(20, 5, "Suomi");
+            //
+            Console.WriteLine("Kananmunat: ");            
+            Console.WriteLine(kananmunat.ToString());
+            Console.WriteLine("Ribsit: ");
+            Console.WriteLine(liha.ToString());
+            Console.WriteLine("Maito: ");
+            Console.WriteLine(maito.ToString());
+            Console.WriteLine("Porkkanat: ");
+            Console.WriteLine(porkkanat.ToString());
         }
     }
 }

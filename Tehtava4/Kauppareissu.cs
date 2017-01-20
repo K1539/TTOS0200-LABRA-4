@@ -11,5 +11,18 @@ namespace JAMK.IT
         public int Kappaletta { get; set; }
         public int Hinta { get; set; }
 
+        public Kauppareissu()
+        {
+
+        }
+        public Kauppareissu(int kappaletta, int hinta)
+        {
+            Kappaletta = kappaletta;
+            Hinta = hinta;
+        }
+        public override string ToString()
+        {
+            return "hinta: " + Hinta + " kappaletta: " + Kappaletta + " ";
+        }
     }
 }
