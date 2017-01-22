@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{74AE6634-BB8A-4CAF-AEE4-BDE7E11EBE1A}</ProjectGuid>
+    <ProjectGuid>{66228913-2529-49F7-B73C-799BB6EE2388}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tehtava4</RootNamespace>
@@ -43,11 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Kananmunat.cs" />
-    <Compile Include="Kauppareissu.cs" />
-    <Compile Include="Liha.cs" />
-    <Compile Include="Maito.cs" />
-    <Compile Include="Porkkanat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
